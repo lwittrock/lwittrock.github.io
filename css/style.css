@@ -1,0 +1,374 @@
+/* set color scheme */
+:root[color-mode="dark"] {
+    --color-background: #262626;
+    --color-default: #cccccc;
+    --color-accent-1: #89a1c4;
+    --color-accent-2: #989ea6;
+    --color-accent-3: #6c85ab;
+    --border-color: #e6e9eb;
+}
+
+:root[color-mode="light"] {
+    --color-background: #F2F2F2;
+    --color-default: #262626;
+    --color-accent-1: #4b7bc4;
+    --color-accent-2: dimgrey;
+    --color-accent-3: #385e96;
+    --border-color: #3A3A3A;
+}
+
+/* style main elements */
+body {
+    color:var(--color-default);
+    background-color:var(--color-background);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+section{
+    padding-top: 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+div{
+    margin: auto;
+    line-height: 1.6;
+    max-width: 900px;
+}
+
+/* Style website header */
+header{
+    background-color: var(--color-background);
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    left: 0;
+    top:  0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* style darkmode button */
+.dark-mode-toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.icon-btn {
+    background-color: var(--color-background);
+    height: 32px;
+    width: 32px;
+    margin: 8px 8px;
+    cursor: pointer;
+}
+
+
+/* Style the navigation menu */
+.sticky-wrapper {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--color-background);
+    position: sticky;
+    top: 0;
+    z-index: 13;
+}
+
+.navbar {
+    width: 80%;
+    background-color: var(--color-background);
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: var(--color-accent-2);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: lighter;
+    width: 21.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+}
+
+
+/* Style the current/active link */
+.navbar a.active {
+    color: var(--color-default);
+}
+
+.row {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/* style text in two columns */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style main text elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: lighter;
+    font-variant:small-caps;
+}
+
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+
+
+h3{
+    margin-top: 25px;
+    font-size:20px;
+}
+
+p {
+    font-size: 11.8pt;
+    font-weight: lighter;
+    max-width: 900px;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    line-height: 1.4;
+    color: var(--color-default);
+}
+
+/* style first paragraph on website in mobile compatible way */
+.bio {
+    margin-top: 13%;
+}
+
+.contacts{
+    margin-top: 10%;
+}
+
+/* style other paragraph elements */
+.papertitle{
+    font-style: italic;
+}
+
+.coauthors {
+    color: var(--color-accent-2);
+    font-size: 10.5pt;
+    margin-top: 0;
+}
+
+.abstract {
+    font-size: 10.5pt;
+    color: var(--color-accent-2);
+    margin-top: 0;
+    margin-left: 10%;
+
+}
+
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: 0;
+}
+
+
+img {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 7%;
+    display:table-cell;
+    clear: right;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-accent-1);
+}
+
+a:hover{
+    text-decoration: none;
+    color: var(--color-accent-3);
+}
+
+
+/* style footer */
+.footer {
+    background-color: var(--color-background);
+    position: fixed;
+    position: -ms-device-fixed;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#disclaimer {
+    text-align: right;
+    font-size: 10pt;
+}
+
+/* style div section element */
+#section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+
+/* mobile styles */
+@media all and (max-width: 800px){
+    div {
+       margin-left: 2.5%;
+       margin-right: 2.5%;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+    }
+
+    header {
+        height: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dark-mode-toggle {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .sticky-wrapper {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar {
+        width: 95%;
+        background-color: var(--color-background);
+        overflow: auto;
+    }
+
+    .navbar a {
+        width: 25%;
+        text-align: center;
+        font-size: 10pt;
+        font-weight: normal;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* change order of picture and text by making row a flex item and reversing the column orders */
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;  /* revert vertically */
+    }
+
+    /* remove columns on about page by making them 100% wide */
+    .column {
+        width: 100%;
+    }
+
+    .img-container {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 7%;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        vertical-align: middle;
+    }
+
+    p {
+        font-size: 11.8pt;
+        line-height: 1.4;
+        font-weight: normal;
+    }
+
+    .bio {
+        margin-top: 0;
+    }
+
+    .footer {
+        position: relative;
+        margin-top: 50px;
+    }
+
+}
+
+@media all and (max-width: 900px) {
+    .navbar a {
+        width: 25%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+/* for large screens */
+@media all and  (min-width: 1700px){
+    body{
+        font-size:16px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    h3{
+        font-size:25px;
+    }
+
+    header{
+        font-size: 20px;
+        height: 260px;
+    }
+
+    div{
+        max-width:1000px;
+    }
+
+    img {
+        width: 300px;
+        height: 420px;
+        max-width: 300px;
+    }
+}

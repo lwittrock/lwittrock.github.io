@@ -1,10 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    some text here
-</body>
+<!-- 2022-04-15 -->
+<html lang="en" color-mode="dark">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <meta name="keywords" content="Lars Wittrock, PhD student, Maastricht University, SBE, economics,
+            behavioral economics, microeconomics, experimental economics, experiment">
+        <meta name="description" content="Academic website of Lars Wittrock">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>About | Lars Wittrock</title>
+    </head>
+
+    <body>
+        <!-- Include header on all pages -->
+        <!-- title -->
+        <div class="header">
+            <h1><a href="index.html" style="color: var(--color-default)">Lars Wittrock</a></h1>
+        </div>
+
+        <!--- Dark mode button --->
+        <div id="DarkModeToggle" class="dark-mode-toggle">
+            <img class="icon-btn" src="/img/darkmode.svg" alt="darkmode">
+        </div>
+
+        <!-- The navigation menu -->
+        <div class="sticky-wrapper">
+            <div class="navbar">
+                <a class="active" href="/">About</a>
+                <a href="/research.html">Research</a>
+                <a href="/files/cv.pdf" target="_blank">CV</a>
+                <a href="/misc.html">Misc</a>
+            </div>
+        </div>
+
+
+        <!-- The content section -->
+        <section>
+            <div class="row">
+                <div class="column">
+                    <p class="bio">
+                        I am ...
+                    </p>
+
+                    <p>
+                        I am completing my PhD at the
+                        <a href="https://www.maastrichtuniversity.nl/research/department-microeconomics-and-public-economics"
+                           target="_blank" rel="noopener noreferrer">Economics Department</a>
+                        at Maastricht University.
+                    </p>
+
+                   <!-- <p>In my research, I investigate determinants of pro-environmental and pro-social
+                        behavior. For example, I study when consumers willing to compensate others for negative
+                        consumption externalities. In another project, I look at the role of impact beliefs and costs
+                        in determining choices between different donation projects.
+                    </p> -->
+
+                    <!-- <p>
+                        Currently, I am a visiting researcher at the Markets and Choice research unit at
+                        <a href="https://wzb.eu/en/research/markets-and-choice" target="_blank" rel="noopener noreferrer">
+                            WZB Berlin Social Science Center</a>.
+                    </p> -->
+
+
+
+
+                    <p class="contacts">
+                        <!-- to protect against crawlers -->
+                        <SCRIPT LANGUAGE="Javascript">
+                            document.write('E-mail: ' + '<A HREF="mai' + 'lto' + String.fromCharCode(58) + 'l.wittrock');
+                            document.write(String.fromCharCode(64) + 'maastrichtuniver' + 'sity.nl">l.wittrock' + String.fromCharCode(64));
+                            document.write('maastrichtuniver' + 'sity.nl</A>');
+                        </SCRIPT>
+                        <NOSCRIPT>email: <code>l [dot] wittrock [at] maastrichtuniversity</code> <code>[dot]</code> <code>nl</code>  </NOSCRIPT><br>
+                    </p>
+                </div>
+                <div class="column">
+                    <div class="img-container">
+                        <img src="img/picture.jpg" alt="Lars Wittrock">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- include footer here -->
+        <div class="footer">
+            <p id="disclaimer">
+                <a href="/disclaimer.html">Disclaimer</a>
+            </p>
+        </div>
+
+
+        <!-- include js files -->
+        <script src="/js/darkmode.js"></script>
+    </body>
 </html>
