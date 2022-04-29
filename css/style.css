@@ -82,7 +82,7 @@ header{
 }
 
 .navbar {
-    width: 90%;
+    width: 80%;
     background-color: var(--color-background);
     overflow: auto;
     margin-left: auto;
@@ -97,7 +97,7 @@ header{
     text-decoration: none;
     font-size: 17px;
     font-weight: lighter;
-    width: 17.5%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center;
 }
 
