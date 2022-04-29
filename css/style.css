@@ -150,10 +150,10 @@ p table {
     display: block;
     line-height: 1.4;
     color: var(--color-default);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
-table td:nth-child(2) { text-align: end; }
+table.align-right td:nth-child(2) { text-align: end; }
 
 
 /* style first paragraph on website in mobile compatible way */
@@ -182,6 +182,7 @@ table td:nth-child(2) { text-align: end; }
     margin-top: 0;
     margin-left: 10%;
 }
+
 
 ul, li {
     margin: 0;
