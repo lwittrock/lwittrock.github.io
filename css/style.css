@@ -53,7 +53,6 @@ header{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
 /* style darkmode button */
 .dark-mode-toggle {
     position: absolute;
@@ -69,7 +68,6 @@ header{
     margin: 8px 8px;
     cursor: pointer;
 }
-
 
 /* Style the navigation menu */
 .sticky-wrapper {
@@ -100,7 +98,6 @@ header{
     width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
     text-align: center;
 }
-
 
 /* Style the current/active link */
 .navbar a.active {
@@ -137,7 +134,6 @@ h1{
     font-size: 32px;
 }
 
-
 h3{
     margin-top: 25px;
     font-size:20px;
@@ -154,7 +150,11 @@ p table {
     display: block;
     line-height: 1.4;
     color: var(--color-default);
+    padding-bottom: 10px;
 }
+
+table td:nth-child(2) { text-align: end; }
+
 
 /* style first paragraph on website in mobile compatible way */
 .bio {
@@ -181,9 +181,7 @@ p table {
     color: var(--color-accent-2);
     margin-top: 0;
     margin-left: 10%;
-
 }
-
 
 ul, li {
     margin: 0;
@@ -191,7 +189,6 @@ ul, li {
     font-size: 100%;
     border: 0;
 }
-
 
 img {
     width: 70%;
@@ -219,7 +216,6 @@ a:hover{
     margin-left: 5%;
     margin-right: 5%;
 }
-
 
 /* mobile styles */
 @media all and (max-width: 800px){
@@ -320,8 +316,6 @@ a:hover{
         padding-right: 0;
     }
 }
-
-
 
 /* for large screens */
 @media all and  (min-width: 1700px){
