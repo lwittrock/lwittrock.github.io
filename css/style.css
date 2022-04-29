@@ -156,6 +156,19 @@ p {
     color: var(--color-default);
 }
 
+table {
+    font-size: 11.8pt;
+    font-weight: lighter;
+    max-width: 900px;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    line-height: 1.4;
+    color: var(--color-default);
+}
+
 /* style first paragraph on website in mobile compatible way */
 .bio {
     margin-top: 13%;
