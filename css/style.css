@@ -153,8 +153,6 @@ p table {
     padding-bottom: 15px;
 }
 
-table.align-right td:nth-child(2) { text-align: end; }
-
 
 /* style first paragraph on website in mobile compatible way */
 .bio {
