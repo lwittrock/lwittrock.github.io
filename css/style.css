@@ -152,7 +152,7 @@ p {
     color: var(--color-default);
 }
 
-.align-right {
+.teaching_table {
     font-size: 11.8pt;
     font-weight: lighter;
     max-width: 900px;
@@ -163,7 +163,9 @@ p {
     display: block;
     line-height: 1.4;
     color: var(--color-default);
-    padding-bottom: 50px;
+}
+table tr {
+    padding-bottom: 30px;
 }
 
 table td:nth-child(2) { text-align: end; }
