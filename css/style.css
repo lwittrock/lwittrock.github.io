@@ -163,6 +163,7 @@ p {
     display: block;
     line-height: 1.4;
     color: var(--color-default);
+    width: 100%;
 }
 table tr {
     padding-bottom: 30px;
