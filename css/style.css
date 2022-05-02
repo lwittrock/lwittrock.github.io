@@ -155,7 +155,7 @@ p {
 .teaching_table {
     font-size: 11.8pt;
     font-weight: lighter;
-    max-width: 900px;
+    width: 900px;
     text-align: justify;
     justify-content: center;
     margin-left: 5%;
@@ -163,8 +163,8 @@ p {
     display: block;
     line-height: 1.4;
     color: var(--color-default);
-    width: 100%;
 }
+
 table tr {
     padding-bottom: 50px;
 }
