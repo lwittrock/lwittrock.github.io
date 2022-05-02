@@ -158,7 +158,6 @@ p {
     width: 900px;
     margin-left: 5%;
     margin-right: 5%;
-    display: block;
     line-height: 1.4;
     color: var(--color-default);
 }
