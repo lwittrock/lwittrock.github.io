@@ -247,6 +247,16 @@ a:hover{
         margin-right: auto;
     }
 
+    table {
+    font-size: 11.8pt;
+    font-weight: lighter;
+    width: 85%;
+    max-width: 900pt;
+    margin-left: 5%;
+    line-height: 2.5;
+    color: var(--color-default);
+    }
+
     .dark-mode-toggle {
         margin-left: 0;
         margin-right: 0;
