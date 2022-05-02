@@ -156,8 +156,6 @@ p {
     font-size: 11.8pt;
     font-weight: lighter;
     width: 900px;
-    text-align: justify;
-    justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
     display: block;
@@ -169,7 +167,9 @@ table tr {
     padding-bottom: 50px;
 }
 
-table td:nth-child(2) { text-align: end; }
+table td:nth-child(2) {
+    text-align: end;
+}
 
 
 /* style first paragraph on website in mobile compatible way */
