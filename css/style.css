@@ -152,23 +152,19 @@ p {
     color: var(--color-default);
 }
 
-.teaching_table {
+table {
     font-size: 11.8pt;
     font-weight: lighter;
-    width: 900px;
+    width: 85%;
+    max-width: 900pt;
     margin-left: 5%;
-    margin-right: 5%;
-    display: block;
-    line-height: 2;
+    line-height: 2.5;
     color: var(--color-default);
 }
 
-table tr {
-    padding-bottom: 50px;
-}
-
-table td:nth-child(2) {
-    text-align: end;
+table.colright td:nth-child(2) {
+    text-align: right;
+    width: auto;
 }
 
 
