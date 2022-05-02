@@ -158,7 +158,7 @@ table {
     width: 85%;
     max-width: 900pt;
     margin-left: 5%;
-    line-height: 1;
+    line-height: 0.5;
     color: var(--color-default);
 }
 
