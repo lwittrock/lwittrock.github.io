@@ -1,8 +1,8 @@
 /* set color scheme */
 :root[color-mode="dark"] {
-    --color-background: #262626;
+    --color-background: #22252b; /* #262626; */
     --color-default: #cccccc;
-    --color-accent-1: #89a1c4;
+    --color-accent-1: #6695dc; /* #89a1c4*/
     --color-accent-2: #989ea6;
     --color-accent-3: #6c85ab;
     --border-color: #e6e9eb;
@@ -95,7 +95,7 @@ header{
     text-decoration: none;
     font-size: 17px;
     font-weight: lighter;
-    width: 15%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    width: 15%; /* Five equal-width links. For four use 21.5% */
     text-align: center;
 }
 
