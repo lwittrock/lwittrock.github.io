@@ -195,6 +195,13 @@ table.colright td:nth-child(2) {
     margin-left: 10%;
 }
 
+.note {
+    font-size: 10.5pt;
+    font-weight: lighter;
+    color: var(--color-accent-2);
+    margin-top: 50px;
+    font-style: italic;
+}
 
 ul, li {
     margin: 0;
