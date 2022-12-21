@@ -95,7 +95,7 @@ header{
     text-decoration: none;
     font-size: 17px;
     font-weight: lighter;
-    width: 15%; /* Five equal-width links. For four use 21.5% */
+    width: 21.5%; /* Five equal-width links use 15. For four use 21.5% */
     text-align: center;
 }
 
@@ -214,7 +214,7 @@ img {
     width: 70%;
     margin-left: 15%;
     margin-right: 5%;
-    margin-top: 7%;
+    margin-top: 27%;
     display:table-cell;
     clear: right;
     vertical-align: middle;
